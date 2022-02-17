@@ -34,6 +34,7 @@ class ManageList {
     }
     set modifyValues({ dragStartedIndex, dragEndIndex }) {
         this.removeElems();
+        //if you want swap then uncomment the 38 number line and comment the 39 and 40 number line.
         // [this.values[dragEndIndex], this.values[dragStartedIndex]] = [this.values[dragStartedIndex], this.values[dragEndIndex]];
         this.values.splice(dragStartedIndex, 1);
         this.values.splice(dragEndIndex, 0, this.firstElem);
