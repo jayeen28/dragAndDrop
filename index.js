@@ -5,7 +5,7 @@ class ManageList {
     constructor() {
         this.firstElem = undefined;//the value from where drag started.
         this.secondElem = undefined;//the value where the drag end.
-        this.values = ['Hello', 'Mello', 'Tello', 'Sello', 'Tullo'];//the values which is rendered on the ui.
+        this.values = ['Bangladesh', 'India', 'Pakistan', 'Brazil', 'Nepal'];//the values which is rendered on the ui.
         this.listParent = document.getElementById('myList');
     }
     renderElems() {//it will render  values
